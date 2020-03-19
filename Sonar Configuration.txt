@@ -1,0 +1,30 @@
+Step1: Add the following plugin in main project
+
+ <build>
+      <pluginManagement>
+            <plugins>
+                  <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>2.3.1</version>
+        </plugin>
+            </plugins>
+      </pluginManagement>
+  </build>
+
+Step2: Add the comment in Run Configuration of STH
+
+clean install sonar:sonar -e
+
+
+Step3: Run the sonar server
+
+Got to the following location:
+
+D:\Softwares\sonarqube-4.3.2\bin\windows-x86-64
+
+Double click on StartSonar.bat file.
+
+Step4: Login to sonar webconsole
+
+http://localhost:9000/
