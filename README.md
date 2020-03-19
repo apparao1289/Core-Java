@@ -1,5 +1,5 @@
 # Core-Java
 It has following topics
-Operator, branch conditions, loops
-OOP's
-Abstract classes and interfaces
+Operator, branch conditions, loops,
+Object Oriented Programming concepts,
+Abstract classes and interfaces.
